@@ -113,7 +113,7 @@
             }
             
             try {
-                const response = await fetch('http://localhost:8000/api/fortune', {
+                const response = await fetch('http://yeonsoo.pythonanywhere.com/api/fortune', {
                     method: 'POST',
                     headers: {'Content-Type': 'application/json'},
                     body: JSON.stringify({name, birthdate})
